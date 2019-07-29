@@ -5,19 +5,12 @@ Author: Bogdan Pasterak
 
 ## Mathematical record of the circle equation
 
-$$
-(x-h)^2+ (y-k)^2= r^2
-$$
+![my equation](https://latex.codecogs.com/gif.download?%28x-h%29%5E2+%20%28y-k%29%5E2%3D%20r%5E2)
 
-Where point  ( h, k ) is the center of the circle and r is the radius.
+Where point  _( h, k )_ is the center of the circle and r is the radius.
 
-So if we have circle $A$ with center $(A_x, A_y)$ , radius $r$
-and circle $B$ with center $(B_x, B_y)$ , radius $R$
+So if we have circle **_A_** with center **_(A<sub>x</sub>, A<sub>y</sub>)_** , radius **_r_**
+and circle **_B_** with center **_(B<sub>x</sub>, B<sub>y</sub>)_** , radius **_R_**
 the equation will look like this
 
-$$
-\begin{cases}
-(x-A_x)^2+ (y-A_y)^2= r^2\\
-(x-B_x)^2+ (y-B_y)^2= R^2
-\end{cases}
-$$
+![equ](https://latex.codecogs.com/gif.download?%5Cbegin%7Bcases%7D%20%28x-A_x%29%5E2+%20%28y-A_y%29%5E2%3D%20r%5E2%5C%5C%20%28x-B_x%29%5E2+%20%28y-B_y%29%5E2%3D%20R%5E2%20%5Cend%7Bcases%7D)
