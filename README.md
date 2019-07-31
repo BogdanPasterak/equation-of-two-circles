@@ -16,4 +16,4 @@ the equation will look like this
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bcases%7D%20%28x-A_x%29%5E2&plus;%20%28y-A_y%29%5E2%3D%20r%5E2%5C%5C%20%28x-B_x%29%5E2&plus;%20%28y-B_y%29%5E2%3D%20R%5E2%20%5Cend%7Bcases%7D)
 
-
+In response, we expect two points. The condition is the distance between the centers must be smaller or equals than the sum of radiuses.
