@@ -1,0 +1,38 @@
+<html>
+<body>
+<script>
+
+let A={"x":4, "y":4}, r=2,
+    B={"x":6, "y":7}, R=4;
+
+let C={"x":B.x-A.x, "y":B.y-A.y};
+let w, a, b, c, sqrtDelta, y1, y2, x1, x2;
+
+
+if (Math.sqrt(C.x*C.x  + C.y*C.y) <= r + R) {
+    // move w1 to 0,0 ; w2 calculate new position
+    a = C.x * C.x + C.y * C.y;
+    w = R * R - r * r - a;
+
+    b = w * C.y;
+
+    c = (w * w) / 4 - C.x * C.x * r * r;
+
+    sqrtDelta = Math.sqrt(b * b - 4 * a * c);
+
+    y1 = (-b - sqrtDelta) / (2 * a);
+    y2 = (-b + sqrtDelta) / (2 * a);
+
+    x1 = (C.y * y1 + w/2) / -C.x + A.x;
+    x2 = (C.y * y2 + w/2) / -C.x + A.x;
+    y1 += A.y;
+    y2 += A.y;
+
+    console.log(x1, y1);
+    console.log(x2, y2);
+}
+
+
+</script>
+</body>
+</html>
